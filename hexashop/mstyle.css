@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.custom-card {
+  width: 400px;
+  height: 500px;
+}
+  .bg-custom-color {
+    background-color: #D9D9D9; /* Replace with your desired color code */
+  }
+
+  .card-img-top {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .cart-img{
+    height: 50px;
+    width: 60px;
+    object-fit: cover;
+  }
+

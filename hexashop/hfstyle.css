@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    background-color: #D9D9D9;
+}
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.navbar-nav .nav-item {
+    padding: 0 15px; /* Adjust as needed */
+}
+.custom-div {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.content:hover {
+    background-color: rgba(0, 0, 0, 0.23);
+}
+
+.text-container {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.content:hover .text-container {
+    display: block;
+}
+
+.text-container h1 {
+    margin-bottom: 10px;
+}
+
+.transparent-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.transparent-button:hover {
+    background-color: white;
+    color: black;
+}
+.right{
+display: flex;
+gap: 5px;
+flex-wrap: wrap;
+}
+
+.row > .col-12:nth-child(2) .custom-div  {
+    background-image: url('images/women.png'); /* Change the background image path as needed */
+    height: 250px; /* Change the height as needed */
+    width: 250px; /* Change the width as needed */
+}
+.row > .col-12:nth-child(2) .custom-div .transparent-button {
+    margin-top: 5px;
+    padding: 5px 10px;
+}
+
+
+.row > .col-12:nth-child(1) .custom-div {
+    background-image: url('images/section-img-1.png');
+    width: 553px;
+    height: 450px;
+}
+
+
+
+
+
+
